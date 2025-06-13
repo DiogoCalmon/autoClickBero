@@ -2,10 +2,10 @@
   "name": "berolab-bot",
   "version": "1.0.0",
   "description": "Bot para acessar berolab.app diariamente",
-  "main": "script-render.ts",
+  "main": "index.ts",
   "scripts": {
-    "start": "ts-node script-render.ts",
-    "build": "tsc script-render.ts",
+    "start": "ts-node index.ts",
+    "build": "tsc index.ts",
     "test": "npm run start"
   },
   "dependencies": {
