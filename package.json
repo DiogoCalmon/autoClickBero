@@ -1,24 +1,20 @@
 {
   "name": "berolab-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Bot para acessar berolab.app diariamente",
+  "main": "script-render.ts",
   "scripts": {
-    "start": "npx ts-node script-render.ts",
-    "dev": "npx ts-node index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node script-render.ts",
+    "build": "tsc script-render.ts",
+    "test": "npm run start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "axios": "^1.9.0",
-    "node-cron": "^4.1.0",
-    "puppeteer": "^24.10.1"
+    "axios": "^1.6.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
   },
-  "devDependencies": {
-    "@types/node": "^24.0.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+  "engines": {
+    "node": ">=18"
   }
 }
