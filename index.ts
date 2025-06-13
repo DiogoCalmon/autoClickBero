@@ -1,7 +1,7 @@
 // script-render.ts - Versão para Render Cron Jobs
 import axios from 'axios';
 
-const TARGET_URL = 'https://exemplo.com';
+const TARGET_URL = 'https://www.berolab.app/';
 
 async function acessarSite() {
   try {
