@@ -7,6 +7,7 @@ on:
     - cron: '0 12 * * *'
   
   # Permite executar manualmente
+  # apenas um teste
   workflow_dispatch:
 
 jobs:
